@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+medvi-env/
+
+# Model Weights & GGUFs
+*.gguf
+*.bin
+*.safetensors
+models/
+~/models/
+
+# Dataset files & heavy predictions
+*.png
+*.jpg
+*.jpeg
+predictions/*.txt
+!predictions/sample*.txt
+
+# Build Artifacts
+build/
+CMakeFiles/
+CMakeCache.txt
+
+# System / OS
+.DS_Store
+Thumbs.db
+*.log
